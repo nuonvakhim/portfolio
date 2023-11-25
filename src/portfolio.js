@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Nuon Vakhim",
-  title: "Hi all, I'm Vakhim",
+  title: "Hello Everyone,I'm Vakhim",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web with JavaScript / Reactjs / Nodejs / SpringBoot and some other cool libraries and frameworks. And also Hyperledger Fabric Blockchain Technology skill."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web with JavaScript / Reactjs / SpringBoot and some other cool libraries and frameworks. And also Hyperledger Fabric Blockchain Technology skill."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -112,10 +112,6 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     },
-    {
-      skillName: "golang",
-      fontAwesomeClassname: "fab fa-golang"
-    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -175,30 +171,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Developer",
+      company: "Freelancer",
+      companylogo: require("./assets/images/logo.f368c431.png"),
+      date: "June 2023 – Present",
+      desc: "",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+    
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Slide Presentation",
+      company: "e-Certify",
+      companylogo: require("./assets/images/logo.f368c431.png"),
+      date: "October 2023 – Present",
+      desc: ""
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+    // {
+    //   role: "Software Engineer Intern",
+    //   // company: "Airbnb",
+    //   // companylogo: require("./assets/images/airbnbLogo.png"),
+    //   date: "Jan 2015 – Sep 2015",
+    //   desc: "."
+    // }
   ]
 };
 
@@ -217,25 +212,25 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/mylogo.png"),
+      projectName: "e-Certify",
+      projectDesc: "e-Certify is a digitalize certificate record-keeping system which user can verify their certificate in the easy and secure way.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "http://e-certify.org/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/Picture1.png"),
+      projectName: "Portify",
+      projectDesc: " Portify is a modern solution to the challenges of traditional job hunting and recruitment.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "http://portify.info/"
         }
       ]
     }
@@ -339,9 +334,9 @@ const talkSection = {
   talks: [
     {
       title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      // subtitle: "Codelab at GDG DevFest Karachi 2019",
+      // slides_url: "https://bit.ly/saadpasta-slides",
+      // event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -364,8 +359,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+885 96 553 1965",
+  email_address: "vakhimkhim17@gmail.com"
 };
 
 // Twitter Section
