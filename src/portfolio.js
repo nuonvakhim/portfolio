@@ -127,10 +127,10 @@ const educationInfo = {
       subHeader: "IT Expert Training",
       duration: "January 2023 - December 2023",
       desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
       schoolName: "Royal University Of Phnom Penh",
@@ -138,7 +138,7 @@ const educationInfo = {
       subHeader: "Bachelor of Science in Computer Science",
       duration: "April 2021 - April 2024",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      // descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
